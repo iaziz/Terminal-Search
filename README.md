@@ -47,19 +47,19 @@ Current version: 1.3 (enhanced colors & styling)
    # From the parent directory (where terminal_search/ folder is)
       python3 -m terminal_search "explain black holes like I'm 12"
 
-# or with mode
+### or with mode
 python3 -m terminal_search -m think "realistic AGI timeline 2026-2030"
 
 ## Global shortcut (optional — very convenient)Bash
 
-# Create symlink (best option)
+### Create symlink (best option)
 ln -s "$(pwd)/terminal-search.py" ~/bin/terminal-search
-# or if using package style:
+### or if using package style:
 ln -s "$(pwd)/terminal_search/main.py" ~/bin/terminal-search
 
 chmod +x ~/bin/terminal-search
 
-# Make sure ~/bin is in PATH (add to ~/.zshrc if needed)
+### Make sure ~/bin is in PATH (add to ~/.zshrc if needed)
 export PATH="$HOME/bin:$PATH"
 
 ## Basic Usages
@@ -69,13 +69,13 @@ terminal-search -m code "fastapi + sqlalchemy async auth example"
 
 ## Usage examples
 
-# Basic search
+### Basic search
 terminal-search "why did Python 3.14 remove the GIL rumors?"
 
-# Deep reasoning mode
+### Deep reasoning mode
 terminal-search -m think "will open-source models catch closed frontier models by 2028?"
 
-# Concise answers
+### Concise answers
 terminal-search -m concise "current Grok API available models March 2026"
 
 # Code mode
